@@ -24,7 +24,7 @@
                 };
 
                 # Non-Haskell shell tools go here
-                buildInputs = with pkgs; [ nixpkgs-fmt git-crypt];
+                buildInputs = with pkgs; [ nixpkgs-fmt git-crypt docker-compose ];
               };
               # This adds `js-unknown-ghcjs-cabal` to the shell.
               # shell.crossPlatforms = p: [p.ghcjs];
